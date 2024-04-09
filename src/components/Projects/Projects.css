@@ -1,0 +1,179 @@
+.ProjectsMainDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Encode Sans", sans-serif;
+}
+.Projects_headTextDiv{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.Project_head{
+    font-size: 40px;
+    color: #344854;
+    font-weight: bold;
+}
+.Project_subText{
+    color: #777;
+    font-size: 20px;
+    width: 55%;
+    text-align: center;
+    margin-top: 30px;
+}
+.Project_itemDiv{
+    width: 70%;
+    margin-top: -80px;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+    margin-left: 50px;
+}
+.Project_item1{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
+.projectItem1img{
+    width: 350px;
+    height: 350px;
+}
+.projectItem1_text{
+    font-size: 36px;
+    color: #344854;
+    padding: 10px;
+    width: 60%;
+}
+.projectItem1_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.projectItem1_button_circle{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #777;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    margin-right: 10px;
+    transition: all ease-in-out 0.1s;
+}
+.projectItem1_button_text{
+    transition: all ease-in-out 0.1s;
+    cursor: pointer;
+    font-size: 20px;
+    color: #344854;
+}
+.item2{
+    margin-top: 50%;
+    /* border: 1px solid blue; */
+    margin-left: 50px;
+    display: flex;
+    align-items: end;
+    text-align: right;
+    width: fit-content;
+}
+.Project1, .Project2,.Project3{
+    transition: all ease-in-out 0.4s;
+}
+.Project1:hover{
+    scale: 1.1;
+}
+.Project2:hover{
+    scale: 1.1;
+}
+.Project3:hover{
+    scale: 1.1;
+}
+@media screen and (max-width: 1280px){
+    .Project_itemDiv{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 1100px){
+    .projectItem1img{
+        width: 80%;
+        height: 80%;
+    }
+    .projectItem1_text{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 950px){
+    .projectItem1img{
+        width: 250px;
+        height:250px;
+    }
+}
+@media screen and (max-width: 800px){
+    .projectItem1_text{
+        font-size: 26px;
+    }
+}
+@media screen and (max-width: 700px){
+    .Project_itemDiv{
+        justify-content: center;
+        flex-direction: column;
+        margin: 0px;
+        margin-top: 5%;
+    }
+    .Project_item1{
+        align-items: center;
+        justify-content: center;
+    }
+    .item2{
+        margin-top: 10%;
+        /* border: 1px solid blue; */
+        margin-left: 0px;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        width: fit-content;
+    }
+    .projectItem1_text{
+        text-align: center;
+    }
+    .Project_itemDiv2{
+        margin-top: 10%;
+    }
+    .Projects_headTextDiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .Project_head{
+        font-size: 34px;
+    }
+    .Project_subText{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 500px){
+    .Projects_headTextDiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .Project_head{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}

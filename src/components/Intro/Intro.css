@@ -1,0 +1,53 @@
+.IntroMaindiv{
+ width: 100%;
+ /* height: 100vh; */
+ padding-top: 14%;
+ padding-bottom: 10%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ font-family: "Encode Sans", sans-serif;
+}
+.Intromainhead{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Encode Sans", sans-serif;
+    color: black;
+}
+.IntroMainheadHighlight{
+    color: #9605DA;
+}
+.Introsubtext{
+    color: #777;
+    font-size: 20px;
+    width: 50%;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 50px;
+}
+.IntroNumbersDiv{
+    width: 80%;
+    display: grid;
+    /* border: 1px solid rgb(13, 13, 11); */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 70px;
+}
+.IntroNumbersSubDiv1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.IntroNumberCount{
+    font-size: 36px;
+    font-weight: 600;
+}
+.IntroNumberText{
+    font-size: 20px;
+    font-weight: 400;
+    color: #777;
+    margin-top: 10px;
+
+}

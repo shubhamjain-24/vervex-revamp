@@ -1,0 +1,37 @@
+.MarqueeTag{
+    font-family: "Encode Sans", sans-serif;
+    margin-top: 100px;
+    width: 100%;
+}
+.MarqueeTag2{
+    font-family: "Encode Sans", sans-serif;
+    width: 100%;
+}
+.marqueeText{
+    padding: 40px;
+    margin-left: 100px;
+    font-size: 30px;
+    color: #344854;
+}
+@media screen and (max-width: 850px){
+    .marqueeText{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 500px){
+    .marqueeText{
+        font-size: 24px;
+        padding: 20px;
+    }
+}
+/* .hrdiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+}
+.line{
+    width: 80%;
+    color: #344854;
+} */

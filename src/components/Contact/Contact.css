@@ -1,0 +1,72 @@
+.Contact_mainDiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* height: 80vh; */
+    width: 100%;
+    font-family: "Encode Sans", sans-serif;
+    margin-top: 5%;
+}
+.Contact_flexContainer{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+.Contact_textContainer{
+    flex: 1;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+.Contact_text{
+    font-size: 48px;
+    color: #344854;
+    font-weight: 500;
+}
+.Contact_img{
+flex: 1;
+background-color: rgb(185, 185, 185);
+width: 200px;
+height: 400px;
+}
+.contact_button{
+    margin-top: 20px;
+}
+.contacthr_div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 8%; */
+    /* margin-bottom: 50px; */
+}
+.Contact_line{
+    width: 80%;
+    color: #344854;
+}
+.top{
+    margin-bottom: 8%;
+}
+.bottom{
+    margin-top: 8%;
+}
+@media screen and (max-width: 850px){
+    .Contact_flexContainer{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 450px){
+    .Contact_text{
+        font-size: 36px;
+        
+    }
+    .Contact_textContainer{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
