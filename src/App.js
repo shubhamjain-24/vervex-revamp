@@ -1,25 +1,16 @@
 import './App.css';
-import Blogs from './components/Blogs/Blogs';
-import Contact from './components/Contact/Contact';
-import Footer from './components/Footer/Footer';
-import Intro from './components/Intro/Intro';
-import Marquee1 from './components/Marquee/Marquee1';
-import Projects from './components/Projects/Projects';
-import Services from './components/Services/Services';
-import Testemonials from './components/Testemonials/Testemonials';
+import {Routes , Route , BrowserRouter} from 'react-router-dom';
+import Home from './Pages/Home/Home';
+import AboutUs from './Pages/About Us/AboutUs';
 
 function App() {
   return (
-    <>
-    <Intro/>
-    <Services/>
-    <Projects/>
-    <Marquee1/>
-    <Contact/>
-    <Testemonials/>
-    <Blogs/>
-    <Footer/>
-    </>
+   <BrowserRouter>
+    <Routes>
+      <Route element={<Home/>} index/>
+      <Route element={<AboutUs/>} path='/aboutus'/>
+    </Routes>
+   </BrowserRouter>
   );
 }
 

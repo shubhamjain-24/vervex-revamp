@@ -90,13 +90,13 @@
     transition: all ease-in-out 0.4s;
 }
 .Project1:hover{
-    scale: 1.1;
+    scale: 1.02;
 }
 .Project2:hover{
-    scale: 1.1;
+    scale: 1.02;
 }
 .Project3:hover{
-    scale: 1.1;
+    scale: 1.02;
 }
 @media screen and (max-width: 1280px){
     .Project_itemDiv{
