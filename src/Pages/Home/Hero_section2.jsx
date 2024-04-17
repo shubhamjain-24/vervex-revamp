@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 import { styles } from "../../styles";
-import EarthCanvas from "../../Components/canvas/Earth";
+import EarthCanvas from "../../components/canvas/Earth";
 import SectionWrapper from "../../hoc/SectionWrapper";
 import { slideIn } from "../../utils/motion";
 import "./HeroSection2.css";
-import StarsCanvas from "../../Components/canvas/Stars";
+import StarsCanvas from "../../components/canvas/Stars";
 import img1 from '../../Images/bootstrap-right.png'
 import img2 from '../../Images/css.png'
 import img3 from '../../Images/figma.png'
